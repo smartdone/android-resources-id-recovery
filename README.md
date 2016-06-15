@@ -17,9 +17,15 @@
 ## 3.使用方法
 
 > python resrecovery.py xxx.apk 输出目录
+
 ## 4.输出目录结构
+
 > outpath/  
+
 > |--java/    (jd-core将jar转换成java的原始文件)  
+
 > |--recovered-java/	(将id数值恢复成R.xxx.xxx形式之后的java文件)  
+
 > |--work/				(apktool反编译输出的文件夹)  
+
 > |--out.jar			(使用enjarify将dex(apk)转换成的jar文件)
